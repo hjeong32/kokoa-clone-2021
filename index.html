@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to Wetalk</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column"></div>
             <span>No Service</span>
-                <!--To do: Wifi Icon---->
+            <i class="fas fa-signal"></i>
     </div>
         <div class="status-bar__column"></div>
             <span>10:04</span>
     </div>
         <div class="status-bar__column"></div>
         <span>111%</span>
-            <!--Battery Icon-->
-            <!--Lightening Icon-->
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
     </div>
+</div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Wetalk</h1>
+        <p class="welcome-header__text">If you have a Wetalk Account, log in with your ID and Password.</p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Email and phone number"/>
+        <input type="password" placeholder="password"/>
+        <input type="submit" value="Log In"/>
+        <a href="#">Find Wetalk Account or Password</a>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
