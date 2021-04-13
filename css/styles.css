@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
+/*Components*/
+@import "components/status-bar.css";
+/*Screens*/
+
+@import "screens/login.css";
 
 body {
   font-family: "Comfortaa", cursive;
@@ -25,7 +29,6 @@ body {
   width: 60%;
   opacity: 0.7;
 }
-
 #login-form {
   display: flex;
   flex-direction: column;
