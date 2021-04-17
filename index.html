@@ -9,16 +9,32 @@
     <div class="status-bar">
         <div class="class-bar__column"></div>    
             <span> No service</span>
-            <!--To do: Wifi Icon-->
-    </div>
+            <i class="fas fa-wifi"></i>
+     </div>
         <div class="class-bar__column"></div> 
             <span>21:47</span>   
     </div>
         <div class="class-bar__column"></div>    
             <span>111%</span>
-            <!--Battery Icon-->
-            <!--lightening Icon-->
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
          </div>
-       </div>
-    </body>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Wetalk</h1>
+            <p class="welcome-header__text">
+                If you have a Wetalk Account, log in with your email or phone number.
+            </p>
+    </header>
+    
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <a href="#">Find Wetalk account or password</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
 </html>
